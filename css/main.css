@@ -1,0 +1,31 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #19B5FE;
+    justify-content: center;
+    align-items: center;   
+}
+
+#image {
+    width: 40%;
+    height: 20%;
+    margin: 20px;
+    align-self: center;
+}
+
+#joke {
+    width: 80%;
+    height: 50%;
+}
+
+button {
+    width: 170px;
+    height: 60px;
+    background-color: #CF3A24;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
