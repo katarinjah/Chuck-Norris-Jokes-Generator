@@ -1,4 +1,4 @@
-const jokeContainer = document.querySelector("#joke");
+const jokeContainer = document.querySelector("#joke-box");
 
 export const renderJoke = (joke) => {
     let jokeHtml = `<p>${joke.value}</p>`
