@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 .button-box {
@@ -54,5 +55,10 @@ button:active {
 p {
     font-size: 17px;
     font-weight: 600;
+}
+
+.img-fluid {
+    max-width:100%;
+    height: auto;
 }
 
